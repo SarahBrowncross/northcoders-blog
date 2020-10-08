@@ -1,0 +1,30 @@
+body {
+	font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    font-style: normal;
+	font-weight: normal;
+	background-color:  rgb(207, 162, 153, 0.2);
+	background-image: url(/images/dot-grid.png); 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+article{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	padding: 40px;
+	max-width: 600px;
+	width: 90%;
+	border: 1px solid  #68AAB8;
+	margin-bottom: 50px;
+	box-shadow: 1px 2px #afb5b6;
+	border-radius: 4px;
+	background-color: white;
+}
+
+h1{
+	margin: 50px;
+	font-size: 3em;
+}
